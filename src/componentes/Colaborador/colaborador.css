@@ -3,6 +3,11 @@
     width: 280px;
 }
 
+.colaborador:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
 .colaborador .cabecalho {
     background-color:  #F0F0F0;
     border-radius: 10px 10px 0px 0px;
@@ -41,4 +46,8 @@
     position: absolute;
     right: -10px;
     top: -10px;
+}
+
+.favoritar{
+    margin-top: 2rem;
 }
